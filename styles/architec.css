@@ -224,6 +224,16 @@
     width: 165px;
   }
 
+  /* Footer section */
+
+  .footer{
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+
+  }
+
 
   /* Responsive media quaries */
 /* Mobile device */
