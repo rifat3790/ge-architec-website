@@ -12,7 +12,15 @@
   }
 
   .btn-primary{
-    
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+
 
   }
 
@@ -69,5 +77,38 @@
 
   .banner-description{
     color: #727272;
+    
+  }
+
+  .banner img{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+
+  /* Responsive media quaries */
+/* Mobile device */
+  @media screen and (max-width: 576px) {
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    } 
+  }
+
+  /* Tablet/mediam devices */
+
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+
+    header{
+        padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    } 
     
   }
